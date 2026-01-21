@@ -12,7 +12,7 @@ function AboutContent() {
           transition={{ delay: 0.3, duration: 0.6 }}
           whileInView={{ opacity: 1, y: 0 }}
           className="text-balance tracking-wide">
-          As a passionate Frontend Developer, I’ve dedicated myself to mastering the core of web development. Having perfected my skills in <span className="font-semibold">HTML, CSS, JavaScript and React.Js</span>. I’m excited to further evolve my technical toolkit.
+          A passionate Frontend Developer Intern with a solid foundation in <span className="font-semibold">React.js</span> and TypeScript. I am dedicated to staying updated with the React ecosystem, specifically <span className="font-semibold">Next.js 16 and TanStack Start</span>. Proficient in crafting responsive UIs with <span className="font-semibold">Tailwind CSS and Shadcn UI</span>, I am eager to contribute to a professional team and further evolve my technical skills.
         </motion.p>
         <div>
           <p className="font-semibold text-lg mb-4">Focus on:</p>
