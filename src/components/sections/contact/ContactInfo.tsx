@@ -25,7 +25,7 @@ function ContactInfo() {
           <p className="flex items-center gap-1.5 font-semibold"><Mail className="size-4" /><span>Email:</span></p>
           <Button className="p-0">
             <a
-              href="mailto:example@gmail.com"
+              href="mailto:nguyenhuylong.dev@gmail.com"
               className="h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5 inline-flex items-center"
             >
               nguyenhuylong.dev@gmail.com
