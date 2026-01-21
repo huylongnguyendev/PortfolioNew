@@ -10,8 +10,8 @@ interface Props {
 function Title({ className, title, subtitle }: Props) {
   return (
     <>
-      <div className="text-center">
-        <h2 className={cn("text-2xl md:text-3xl text-primary ", className)}>{title}</h2>
+      <div className="text-center space-y-4">
+        <h2 className={cn("text-2xl md:text-3xl text-primary capitalize font-semibold", className)}>{title}</h2>
         {
           subtitle && <p className="text-muted-foreground text-lg md:text-xl">{subtitle}</p>
         }

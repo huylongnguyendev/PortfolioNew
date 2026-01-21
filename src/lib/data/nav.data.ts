@@ -12,14 +12,14 @@ export const listNavData: NavType = [
     href: "#about-me",
   },
   {
-    id: "#skills",
-    title: "skills",
-    href: "#skills",
-  },
-  {
     id: "#projects",
     title: "projects",
     href: "#projects",
+  },
+  {
+    id: "#skills",
+    title: "skills",
+    href: "#skills",
   },
   {
     id: "#contact",

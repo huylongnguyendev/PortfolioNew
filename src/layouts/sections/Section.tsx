@@ -4,12 +4,13 @@ import { cn } from "@/lib/utils"
 interface Props {
   className?: ClassNameType
   children: ChildrenType
+  id: string
 }
 
-function Section({ className, children }: Props) {
+function Section({ className, children, id }: Props) {
   return (
     <>
-      <section className={cn("py-0", className)}>
+      <section id={id} className={cn("py-0 mt-10", className)}>
         {children}
       </section>
     </>
