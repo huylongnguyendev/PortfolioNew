@@ -9,7 +9,7 @@ interface Props {
 }
 
 const NavBarItem = memo(({ item, isActive, onClick }: Props) => {
-
+  console.log("render ", item.title)
   return (
     <>
       <li
