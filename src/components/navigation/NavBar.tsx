@@ -7,6 +7,7 @@ import { useMenu } from "@/lib/context/MenuContext"
 import { cn } from "@/lib/utils"
 
 function NavBar() {
+  console.log("render nav")
   const [activeHash, setActiveHash] = useState<string>(window.location.hash || "#")
 
   const ulRef = useRef<HTMLUListElement>(null)
